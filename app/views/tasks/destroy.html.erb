@@ -1,0 +1,9 @@
+<%= link_to "Delete", restaurant_path(task),
+      method: :delete,
+      data: { confirm: "Are you sure?" } %>
+
+"<form method="post" class="button_to">
+#      <input type="hidden" name="_method" value="delete" />
+#      <input data-confirm='Are you sure?' type="submit" />
+#      <input name="authenticity_token" type="hidden"/>
+#    </form>"
